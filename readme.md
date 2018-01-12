@@ -36,7 +36,7 @@ print(os.path.expanduser('~'))
 - https://github.com/asanilta/amazon-sentiment-keras-experiment
 
 ## 代码说明
-见AmazonReview.ipynb
+见SentimentAnalytics.ipynb
 
 ## 测试模型
 运行test.py文件,测试该情感分析模型。注意要先找到keras.json文件的位置（与Jupyter Notebook对应keras.json位置可能不一样），设置backend为cntk。
