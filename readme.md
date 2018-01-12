@@ -12,11 +12,11 @@
 #### 1. 虚拟机准备
 1) 创建Azure 数据科学虚拟机
 在全球版Azure的管理门户上找到Azure数据科学虚拟机，开始创建。注意选择Windows 2016系统，HDD磁盘类型，NC6型号虚拟机。
-<img src="image/AzureDSVMsearch.png" width="600" height="200" />
+<img src="image/AzureDSVMsearch.png" width="1000" height="270" />
 ​
 2) 访问Azure数据科学虚拟机
 创建成功后，通过点击Connect按钮，连接虚拟机。
-<img src="image/AzureDSVMconnect.png" width="400" height="150" />
+<img src="image/AzureDSVMconnect.png" width="500" height="200" />
 
 #### 2. 训练环境配置
 1) 配置Keras的后台为CNTK。通过运行下面的python代码来找到.keras文件夹及keras配置文件keras.json的位置,将backend这一项的值改成cntk。有两个可能的位置，一个是c:\users\username\\.keras，一个是c:\Windows\system32\config\systemprofile\\.keras
