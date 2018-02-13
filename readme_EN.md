@@ -18,7 +18,7 @@ This experiment is to do sentiment analytics based on Amazon online store's clot
 You can find Azure Data Science Virtual Machine in global Azure portal, and start creating. Notice to choose Windows 2016 system, HDD disk, and NC6 size.
 
 <img src="image/AzureDSVMsearch.png" width="600" height="200" />
-​
+
 2) Visiting Azure Data Science Virtual Machine
 
 After successfully created, click "Connect" button to remotely connect to the virtual machine.
